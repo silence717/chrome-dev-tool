@@ -1,0 +1,14 @@
+{
+  "name": "chrome-dev-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  },
+  "repository": "https://github.com/silence717/chrome-dev-tool.git",
+  "author": "fang.yang <yangfang2028@126.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  }
+}
