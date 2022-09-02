@@ -1,7 +1,9 @@
-import { themes, Invert } from 'mdx-deck'
+import { Invert } from 'mdx-deck'
 import { Heading } from 'theme-ui'
+import { theme } from './theme'
 
-export const theme = themes.future
+export const themes = [ theme ]
+
 
 <Invert>
     <Heading>Chrome DevTools</Heading>
@@ -19,7 +21,7 @@ export const theme = themes.future
 
 ---
 <Invert>
-    <Heading>U don't know Chrome DevTools</Heading>
+    <Heading>You Might Not Know Tips</Heading>
     <ul>
         <li>Jump to Console Panel: Command + Option + J </li>
         <li>Jump to Element Panel: Command + Option + C</li>
@@ -88,4 +90,11 @@ export const theme = themes.future
         <li>Workspace: persist changes</li>
         <li>Debugger Javascript</li>
     </ul>
+</Invert>
+
+---
+<Invert>
+    <Heading>
+        Thank You!
+    </Heading>
 </Invert>
